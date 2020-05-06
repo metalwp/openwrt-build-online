@@ -9,7 +9,7 @@
 #============================================================
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.0.2/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/192.168.0.2/g' package/base-files/files/bin/config_generate
 
-#move ssr-plus to packages/feeds
-#cp -r feeds/packages2/luci-app-ssr-plus package/feeds/packages2
+# move ssr-plus to packages/feeds
+# cp -r feeds/packages2/luci-app-ssr-plus package/feeds/packages2
